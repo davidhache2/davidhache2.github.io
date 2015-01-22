@@ -1,0 +1,219 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+body {
+	width:1000px;
+	margin:25px auto;
+	border:3px solid gray;
+	font-family:Verdana;
+	background-image:url("../images/fondobody.jpg");
+}
+
+#contenedor {
+	background-image:url("../images/repetir.jpg");
+}
+
+header {
+	width:1000px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav {
+	width:1000px;
+}
+
+nav ul {
+	list-style-position: inside;
+	background-image:url("../images/fondobody.jpg");
+	border:2px solid gray;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+nav ul li {
+	display:inline-block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:150%;
+	padding:5px;
+	margin-left:11px;
+	background-color:#000;
+}
+
+nav ul li a {
+	text-decoration:none;
+	color:white;
+}
+
+nav ul li a:hover {
+	color:#ff2828;
+}
+
+nav ul li a:active {
+	font-style: italic;
+}
+
+section h1 {
+	width:140px;
+	margin:20px 0px 0px 20px;
+}
+
+#publicidad {
+	float:right;
+	border:2px solid black;
+	width:700px;
+	height:100px;
+	margin-top: -88px;
+	margin-right:5px;
+}
+
+#publicidad a {
+	z-index:5;
+	text-decoration:none;
+}
+
+#publicidad p {
+	z-index: 2;
+	position:relative;
+	color:white;
+	font-weight:bold;
+	left:2px;
+}
+
+#publicidad img {
+	margin-top:-19px;
+	width:700px;
+	height:100px;
+}
+
+#mortadelo {
+	width:200px;
+	height:200px;
+	float:right;
+	margin-right:47px;
+}
+
+#mortadelo img {
+	position:relative;
+	top:-78px;
+}
+
+#telefono {
+	font-weight:bold;
+	margin:25px 0px 0px 20px;
+	width:200px;
+}
+
+article#informacion {
+	border:2px solid black;
+	margin:20px 5px 0px 5px;
+	background-color:#FFF000;
+	font-size:110%;
+	padding:20px;
+	font-style: italic;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+li span {
+	color:red;
+}
+
+#informacion ul {
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+#informacion li {
+	margin:5px;
+}
+
+#biografia p {
+	margin:15px;
+	font-style: italic;
+}
+
+#biografia p:first-letter {
+	font-size:125%;
+	font-weight:bold;
+	color:#10a326;
+}
+
+#cualidades ul {
+	padding:10px;
+	list-style-position: inside;
+	list-style-type: circle;
+	margin:0px 0px 25px 20px;
+}
+
+#formulario {
+	width:300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px;
+	border:2px solid black;
+	margin-bottom:25px;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+#formulario h3 {
+	font-size:110%;
+	margin:10px;
+	color:red;
+}
+
+input {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	color: #555;
+	outline: none;
+	padding: 6px 6px;
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+textarea {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	color: #555;
+	outline: none;
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	max-width:290px;
+	max-height:100px;
+}
+
+#especial2 {
+	font-size:70%;
+}
+
+.especial3 {
+	float:right;
+	margin-rigth:50px;
+}
+
+form {
+	margin-bottom:20px;
+}
+
+footer {
+	border-top:2px dashed black;
+	border-bottom:2px dashed black;
+	background-image:url("../images/fondobody.jpg");
+	text-align: center;
+	padding:5px;
+	font-size:80%;
+}
